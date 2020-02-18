@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>About Owl City</title><!--rename this appropriately-->
+    <link href="styles.css" rel='stylesheet' type='text/css'>
+    <!--insert a link to the stylesheet provided in the root folder you downloaded-->
+  </head>
+
+  <body>
+    <header>
+      <h1>Owl City</h1>
+        <img src="logo_120.jpg">
+      <!-- insert <img> element, link to the a small
+          version of the band/movie logo. You can either find an existing logo for the band/movie or create one of your own-->
+
+    </header>
+
+    <main>
+      <article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OpJzmMF526I" frameborder="0" allow="accelerometer; autoplay;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- find a video you would like to embed from youtube. click 'share' beneath the video. select the 'embed' tab and copy/paste
+        iframe code from youtube -->
+
+        <h2>Life is Cinematic</h2>
+
+        <p>Adam Young, who releases music under the name Owl City, came to his international fame in 2009 with the release of his single
+          Fireflies. He might seem to many as a one-hit-wonder, but Young has been continuing to release successful music over the last decade.
+          He has released 6 studio albums, 7 EP's, and 21 singles. He also has 11 instrumental albums that he release in 2016 under the name Adam Young
+          that narrate important events in his life and in history: the sinking of the Titanic, Apollo 11, and more. Young's most recent release was
+          his album titled "Cinematic" in the summer of 2018 which lead to an international tour.
+        </p>
+
+        <p>Click on the images below to find more information about Owl City.</p>
+      </article>
+
+      <div class="further-info">
+
+        <!--insert an href within the link below that references the band/movie's actual website-->
+        <a href="http://www.owlcitymusic.com/">
+          <figure>
+            <img srcset="adam_120.jpg 120w,
+                         adam_400.jpg 400w"
+                 sizes="(max-width: 250px) 120px, 400px"
+                 src="adam_400.jpg" alt="portrait of Adam Young in a button-up dress shirt and a tie
+                 with a field and trees in the background">
+            <figcaption>About Adam</figcaption>
+          </figure>
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called tour.html or screens.html
+        if you are creating a movie site. this new page should include, at a minimum, an HTML table that gives your band's tour dates and
+        locations or locations and times where your movie is screening-->
+        <a href="tour.html">
+          <figure>
+            <img srcset="cinematic_120.jpg 120w,
+                         cinematic_400.jpg 400w"
+                 sizes="(max-width: 250px) 120px, 400px"
+                 src="cinematic_400.jpg" alt="Cinematic album cover from 2018">
+            <figcaption>Tour Dates</figcaption>
+          </figure><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called fans.html. this new page
+        should include, at a minimum, an HTML form that would allow a user to enter their personal information to sign up for a fan club for your
+        band or movie. Don't forget a Submit button! Note that these forms don't have to actually collect the information that is entered. This would
+        require technology that is beyond the scope of this course-->
+        <a href="fans.html">
+          <figure>
+            <img srcset="stage_120.jpg 120w,
+                         stage_400.jpg 400w"
+                 sizes="(max-width: 250px) 120px, 400px"
+                 src="stage_400.jpg" alt="owl city on stage singing at a concert">
+            <figca
+            ption>Join the fanclub!</figcaption>
+          </figure><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'Join the fanclub!'-->
+        </a>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="closing-image">
+        <!-- insert picture element with an image that is appropriate for large devices and one that is cropped to show an important detail for
+        mobile devices (see the Responsive Images lesson for an example)-->
+      </div>
+
+    </main>
+  </body>
+</html>
